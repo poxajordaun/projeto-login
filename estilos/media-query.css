@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 788px) and (max-width: 992px) {
+
+/*Para tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
     }
 
     body {
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 310px;
     }
 
     /*Fazer as divs ficarem uma ao lado da outra, ao ínves de uma em cima da outra, usa-se o 'float' e depois indica em qual lado a div vai ficar*/
@@ -22,12 +29,17 @@
         float: right;
         width: 70%;
         border-radius: 0px 20px 20px 0px;
-        height: 500px;
+        height: 550px;
+    }
+
+    div#formulario {
+        text-align: center;
     }
 
 }
 
 
+/*Para desktops e telas grandes*/
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
@@ -37,6 +49,10 @@
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
     }
 
+    section#login {
+        width: 80vw;
+        height: 320px;
+    }
     
     section#login > div#imagem {
         float: right;
@@ -49,7 +65,11 @@
     section#login > div#formulario {
         float: left;/*Indica que os elementos vão ser jogados pro lado esquerdo da tela, tipo como se fosse um 'text-alignt: left;'*/
         width: 50%;
-        height: 500px;
+        height: 550px;
         border-radius: 20px 0px 0px 20px;
+    }
+
+    div#formulario {
+        text-align: center;
     }
 }
