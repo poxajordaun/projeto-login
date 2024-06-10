@@ -5,3 +5,80 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+div#formulario {
+    background-color: white;
+    padding: 10px;
+}
+
+div#imagem {
+    height: 200px;
+    background-image: url(../imagens/pexels-david-underland-3523621.jpg);
+    background-size: cover;
+    background-position: top center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1#titulo {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+div#formulario {
+    text-align: left;
+    border-radius: 0px 0px 20px 20px;
+}
+
+p#texto {
+    padding-bottom: 15px;
+}
+
+p.usuario {
+    background-color: #5f2c82;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input.digite {
+    background-color: rgb(166, 247, 220);
+    padding: 10px;
+    border-radius: 10px
+}
+
+p#entrar {
+    text-align: center;
+    padding: 10px;
+}
