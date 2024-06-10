@@ -9,10 +9,10 @@
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
     }
 
-    /*Fazer as divs ficarem uma ao lado da outra, ao ínves de uma em cima da outra*/
+    /*Fazer as divs ficarem uma ao lado da outra, ao ínves de uma em cima da outra, usa-se o 'float' e depois indica em qual lado a div vai ficar*/
 
     section#login > div#imagem {
-        float: left; /*Indica que os elementos vão ser jogados pro lado esquerdo da tela, tipo como se fosse um 'text-alignt: left;'*/
+        float: left; /*Indica que os elementos vão ser jogados pro lado esquerdo da tela, tipo como se fosse um 'text-alignt: right;'*/
         width: 30%;
         height: 100%;
         border-radius: 20px 0px 0px 20px;
@@ -39,17 +39,17 @@
 
     
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 0px 0px;
     }
 
 
     section#login > div#formulario {
-        float: right;/*Indica que os elementos vão ser jogados pro lado esquerdo da tela, tipo como se fosse um 'text-alignt: left;'*/
+        float: left;/*Indica que os elementos vão ser jogados pro lado esquerdo da tela, tipo como se fosse um 'text-alignt: left;'*/
         width: 50%;
         height: 500px;
-        border-radius: 0px 20px 20px 0px;
+        border-radius: 20px 0px 0px 20px;
     }
 }
