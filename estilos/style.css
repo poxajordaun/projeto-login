@@ -33,16 +33,26 @@ section#login {
     transform: translate(-50%, -50%);
     width: 250px;
     height: 500px;
-    margin: auto;
+    overflow: hidden;
     border-radius: 20px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    /*Transição de mudança de tamanho*/
+    transition: width 0.3s, heigth 0.3;
+    transition-timing-function: ease;
 }
 
 div#formulario {
+    display: block;
     background-color: white;
     padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
 }
 
 div#imagem {
+    display: block;
     height: 200px;
     background-image: url(../imagens/pexels-david-underland-3523621.jpg);
     background-size: cover;
@@ -54,31 +64,4 @@ h1#titulo {
     text-align: center;
     padding-bottom: 10px;
     font-weight: bold;
-}
-
-div#formulario {
-    text-align: left;
-    border-radius: 0px 0px 20px 20px;
-}
-
-p#texto {
-    padding-bottom: 15px;
-}
-
-p.usuario {
-    background-color: #5f2c82;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-input.digite {
-    background-color: rgb(166, 247, 220);
-    padding: 10px;
-    border-radius: 10px
-}
-
-p#entrar {
-    text-align: center;
-    padding: 10px;
 }
